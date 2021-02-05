@@ -14,7 +14,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class VoitureController extends AbstractController
 {
     /**
-     * @Route("/clent/voitures", name="voitures")
+     * @Route("/client/voitures", name="voitures")
      */
     public function index(VoitureRepository $repo, PaginatorInterface $paginatorInterface, Request $request): Response
 
